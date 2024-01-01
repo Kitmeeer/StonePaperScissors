@@ -71,5 +71,5 @@ const handleMouseEnter = (event) => {
 
 // Add event listener to each choice
 choices.forEach((choice) => {
-  choice.addEventListener("mouseenter", handleMouseEnter);
+  choice.addEventListener("click", handleMouseEnter);
 });
